@@ -191,6 +191,6 @@ Porject ideas were obtained from [Karan Project Solutions](https://github.com/ka
 - [ ] Text Based Game Like Utopia
 	- Create a simple text based RPG like Utopia where you can create a civilization, gather resources, forge alliances, cast spells and more on a turn based system. See if you can dominate the kingdom.
 
-##Security
+## Security
 - [ ] Ceasar Cipher
 	- Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
