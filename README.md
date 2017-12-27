@@ -1,7 +1,7 @@
 # Project365
 
-#This repo is a coding project for myself. 
-#Starting on 1st January 2018, I will attempt to program each solution listed below for each day of the year.
+# This repo is a coding project for myself. 
+# Starting on 1st January 2018, I will attempt to program each solution listed below for each day of the year.
 
 365 total projects.
 
