@@ -5,7 +5,7 @@ Starting on 1st January 2018, I will attempt to program each solution listed bel
 Obviously most solutions will need a couple of days to figure out. However the main goal is to make sure that a solution is uploaded each day throughout the entire year.
 New solutions will be added throughout the year.
 
-Porject ideas were obtained from [Karan Project Solutions](https://github.com/karan/Projects-Solutions), [Rosetta Code](http://rosettacode.org/wiki/Category:Programming_Tasks) and [martyr2s mega project idea list](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
+Project ideas were obtained from [Karan Project Solutions](https://github.com/karan/Projects-Solutions), [Rosetta Code](http://rosettacode.org/wiki/Category:Programming_Tasks) and [martyr2s mega project idea list](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
 
 ## Numbers
 - [ ] Find Pi to the Nth digit.
