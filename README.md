@@ -7,6 +7,7 @@ Starting on 1st January 2018, I will attempt to program each solution listed bel
 
 ## Numbers
 - [ ] Find Pi to the Nth digit.
+ - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 - [ ] Find e to the Nth digit.
 - [ ] Fibonacci sequence
 - [ ] Prime factorization
