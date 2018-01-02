@@ -6,6 +6,8 @@ namespace Project365.January
     {
         public static void main()
         {
+            Console.Clear();
+
             Console.WriteLine("Find E to the Nth Digit.");
             Console.WriteLine("Type a number between 1 and 15.");
             Console.Write("Input: ");
