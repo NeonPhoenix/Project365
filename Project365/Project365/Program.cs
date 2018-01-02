@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Reflection;
 
 namespace Project365
@@ -23,11 +24,18 @@ namespace Project365
             InvokeStringMethod(temp[0], temp[1]);
         }
 
+        public static void Restart()
+        {
+            Thread.Sleep(3000);
+            Console.Clear();
+            Program.ProgramStart();
+        }
+
         private static string InvokeStringMethod(string typeName, string methodName)
         {
-            Type calledType = Type.GetType("Project365." + typeName);
+            Type calledType = Type.GetType("Project365." + typeName + "." + methodName);
 
-            string s = (String)calledType.InvokeMember(methodName, BindingFlags.InvokeMethod | BindingFlags.Public | BindingFlags.Static, null, null, null);
+            string s = (String)calledType.InvokeMember("main", BindingFlags.InvokeMethod | BindingFlags.Public | BindingFlags.Static, null, null, null);
 
             return s;
         }
