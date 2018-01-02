@@ -8,9 +8,9 @@ New solutions will be added throughout the year.
 Project ideas were obtained from [Karan Project Solutions](https://github.com/karan/Projects-Solutions), [Rosetta Code](http://rosettacode.org/wiki/Category:Programming_Tasks) and [martyr2s mega project idea list](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
 
 ## Numbers
-- [ ] Find Pi to the Nth digit.
+- [x] Find Pi to the Nth digit.
 	- Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
-- [ ] Find e to the Nth digit.
+- [x] Find e to the Nth digit.
 	- Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 - [ ] Fibonacci sequence
 	- Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
