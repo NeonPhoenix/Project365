@@ -14,7 +14,7 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 - [x] Fibonacci sequence
 	- Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
-- [ ] Prime factorization
+- [x] Prime factorization
 	- Have the user enter a number and find all Prime Factors (if there are any) and display them.
 - [ ] Next prime number
 	- Have the program find prime numbers until the user chooses to stop asking for the next one.
