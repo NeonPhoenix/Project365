@@ -16,7 +16,7 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 - [x] Prime factorization
 	- Have the user enter a number and find all Prime Factors (if there are any) and display them.
-- [ ] Next prime number
+- [x] Next prime number
 	- Have the program find prime numbers until the user chooses to stop asking for the next one.
 - [ ] Find cost of tile to cover W x H floor.
 	- Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
