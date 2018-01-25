@@ -24,7 +24,7 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 - [x] Change return program.
 	- The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
-- [ ] Binary to decimal and back converter.
+- [x] Binary to decimal and back converter.
 	- Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 - [ ] Calculator
 	- A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
