@@ -22,7 +22,7 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 - [x] Mortgage calculator.
 	- Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
-- [ ] Change return program.
+- [x] Change return program.
 	- The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 - [ ] Binary to decimal and back converter.
 	- Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
