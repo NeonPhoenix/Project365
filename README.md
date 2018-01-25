@@ -53,9 +53,9 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 - [ ] 99 Bottles of Beer
 	- Display the complete lyrics for the song: 99 Bottles of Beer on the Wall. Grammatical support for "1 Bottle of Beer" is optional.
 - [ ] ABC Problem
-	- Write a function that takes a string (word) and determine whether the word can be spelled with the given collention of blocks. The rules are simple: 1 - Once a letter on a block is used that block cannot be used again. 2 - The function should be case-insensitive.
+	- Write a function that takes a string (word) and determine whether the word can be spelled with the given collection of blocks. The rules are simple: 1 - Once a letter on a block is used that block cannot be used again. 2 - The function should be case-insensitive.
 	
-## Classic Algorithms
+## Algorithms
 - [ ] Collatz conjecture
 	- Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
 - [ ] Sorting
@@ -64,18 +64,20 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- The closest pair of points problem or closest pair problem is a problem of computational geometry: given n points in metric space, find a pair of points with the smallest distance between them.
 - [ ] Sieve of Eratosthenes
 	- The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
-
+- [ ] CRC-32
+	- Generate a CRC-32 Checksum for the given phrase: The quick brown fox jumps over the lazy dog
+	
 ## Graphs
 - [ ] Graph from links
 	- Create a program that will create a graph or network from a series of links.
 - [ ] Eulerian path
-	- Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible. A Eulerian Path starts at one node and traverses every edge of a graph through every node and finishes at another node. A Eulerian cycle is a eulerian Path that starts and finishes at the same node.
+	- Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible. A Eulerian Path starts at one node and traverses every edge of a graph through every node and finishes at another node. A Eulerian cycle is a Eulerian Path that starts and finishes at the same node.
 - [ ] Connected graph
 	- Create a program which takes a graph as an input and outputs whether every node is connected or not.
 - [ ] Djikstra's algorithm
 	- Create a program that finds the shortest path through a graph using its edges.
 - [ ] Minimum spanning tree
-	- Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
+	- Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a subgraph that is a tree, contains all the vertices's, and the sum of its weights is the least possible.
 
 ## Data Structures
 - [ ] Inverted Index
@@ -86,12 +88,12 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 - [ ] Reverse a string
 	- Enter a string and the program will reverse it and print it out.
-- [ ] Pig latin
+- [ ] Pig Latin
 	- Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 - [ ] Count Vowels
 	- Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 - [ ] Check if Palindrome
-	- Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+	- Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “race car”
 - [ ] Count words in a string
 	- Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 - [ ] Fortune Teller
@@ -99,13 +101,18 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 - [ ] Vigenere / Vernam / Ceasar Ciphers
 	- Functions for encrypting and decrypting data messages. Then send them to a friend. 
 - [ ] Random Gift Suggestions
-	- Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one. Optional: Suggest places you can get it (link to Amazon page?).
+	- Enter various gifts for certain people when you think of them. When its time to give them a gift (Xmas, birthday, anniversary) it will randomly pick one. Optional: Suggest places you can get it (link to Amazon page?).
 - [ ] Regex query tool
 	- A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression. 
 - [ ] Markdown to HTML Converter
 	- Converts Markdown formatted text into HTML files. Implement basic tags like p, strong, em etc. Optional: Implement all tags from Markdown Syntax Docs.
 - [ ] CD key generator
 	- Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
+- [ ] RSS Feed Creator
+	- Given a link to RSS/Atom Feed, get all posts and display them.
+- [ ] Quote Tracker (Market Symbols etc)
+    - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.
+
 	
 ## Networking
 - [ ] FTP Program
@@ -115,17 +122,17 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 - [ ] Port scanner
 	- Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.
 - [ ] Country from IP Lookup
-	- Enter an IP address and find the country that IP is registered in. Optional: Find the Ip automatically.
-- [ ] Whois search tool
-	- Enter an IP or host address and have it look it up through whois and return the results to you. 
-- [ ] Get atomic time from internet clock
+	- Enter an IP address and find the country that IP is registered in. Optional: Find the IP automatically.
+- [ ] Who-is search tool
+	- Enter an IP or host address and have it look it up through who-is and return the results to you. 
+- [ ] Get atomic time from Internet clock
 	- This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
 - [ ] Packet sniffer
 	- A utility program that will read packets coming in and out of the machine along with related information like destination and payload size.
 - [ ] Web bot
 	- An automated program which carries out tasks on the web including checking websites, page scraping, and summarization of data or web posting.
 - [ ] Telnet Application
-	- Create an application which can telnet into servers across the internet and run basic commands.
+	- Create an application which can telnet into servers across the Internet and run basic commands.
 	
 ## Threading
 - [ ] Create a progress bar for downloads
@@ -151,15 +158,17 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	
 ## Web
 - [ ] E-Card Generator
-	- Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.
+	- Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful motto's or quotes.
 - [ ] CAPTCHA Maker
-	- Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
+	- Ever see those images with letters a numbers when you sign-up for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 - [ ] Page scraper
 	- Create an application which connects to a site and pulls out all links, or images, and saves them to a list. Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.
-
+- [ ] Fetch Current Weather
+	- Get the current weather for a given zip/postal code. Optional: Try locating the user automatically.
+	
 ## Files
 - [ ] Quiz Maker
-	- Make an application which takes various questions form a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
+	- Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
 - [ ] RPG Character Stat Creator
 	- Make a program which will randomly create a character’s stats based on several rules set forth by the user. Have it generate a class, gender, strength/magic/dexterity points, and extra abilities or trades. Have it save it to a file which can then be printed out by a dungeon master.
 
@@ -167,8 +176,8 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 - [ ] Traffic Light Application
 	- See if you can make your own street light application and then put it into an intersection scenario. Don’t let any cars run the lights and crash into one another!
 - [ ] Signature Maker
-	- Ever seen those web board posts where someone has a generated signature made up? See if you can make a program that allows the user to specify a background, text, colors and alignment to make their own signatures or userbars.
-- [ ] Import Picture and Save as Grayscale
+	- Ever seen those web board posts where someone has a generated signature made up? See if you can make a program that allows the user to specify a background, text, colors and alignment to make their own signatures or user-bars.
+- [ ] Import Picture and Save as Gray-scale
 	- A utility that sucks the color right out of an image and saves it. You could add more including adjusting contrast, colorizing and more for added complexity.
 - [ ] YouTube Downloader
 	- A program which can download videos to your hard drive from youtube.com. Save the files in various formats including FLV and AVI.
@@ -178,10 +187,12 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture.
 - [ ] Turtle Graphics
 	- This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. For added complexity, allow the program to read in the list of commands from a file. Do a search online for “Turtle Graphics” for more information.
+- [ ] Dice Simulator
+	- You are about to play a board game, but you realize you don't have any dice. Fortunately you have this program. 1. Create a program that opens a new window and draws 2 six-sided dice 2. Allow the user to quit, or roll again 
 	
 ## Games
 - [ ] Battleship
-	- Create two game boards and let each player place a number of war ships. Each player can’t see the other person’s board. They then take turns firing at one another by guessing one of the board squares. If the square they guess contains part of a ship, it is a hit. Otherwise it is a miss. They sink a ship when all squares containing that particular ship have been uncovered. The player wins when all their opponents’ ships have been sunk.
+	- Create two game boards and let each player place a number of war ships. Each player can’t see the other person’s board. They then take turns firing at one another by guessing one of the board squares. If the square they guess contains part of a ship, it is a hit. Otherwise it is a miss. They sink a ship when all squares containing that particular ship have been uncovered. The player wins when all their opponent's ships have been sunk.
 - [ ] Chess and Checkers
 	- Simply put a game of chess or checkers. Try to make it playable online and if you can use a graphical user interface that can also undo or redo a step as well as keep a history of moves for replay.
 - [ ] Hangman
@@ -190,7 +201,367 @@ Project ideas were obtained from [Karan Project Solutions](https://github.com/ka
 	- Get your frog across the river and lanes of traffic by either jumping on logs and lily pads rushing by at different speeds or avoid the automobiles which are also moving at various speeds. Based on the old arcade game..
 - [ ] Text Based Game Like Utopia
 	- Create a simple text based RPG like Utopia where you can create a civilization, gather resources, forge alliances, cast spells and more on a turn based system. See if you can dominate the kingdom.
-
+- [ ] Higher or Lower Guessing game
+	- Create a simple game where the computer randomly selects a number between 1 and 100 and the user has to guess what the number is. After every guess, the computer should tell the user if the guess is higher or lower than the answer. When the user guesses the correct number, print out a congratulatory message.
+- [ ] Magic 8 Ball
+	- I'm sure you've used a magic 8 ball at one point in your life. You ask it a question, turn it right side up and it gives an answer by way of a floating die with responses written on it. You can create one in python.
+	
 ## Security
 - [ ] Ceasar Cipher
-	- Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+	- Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "mono-alphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+
+## Miscellaneous
+- [ ] Generating Polygons 	
+	- https://projecteuler.net/problem=382
+- [ ] Square Space Silo		
+	- https://projecteuler.net/problem=431
+- [ ] Sort Disjoint Sublist	
+	- http://rosettacode.org//wiki/Sort_disjoint_sublist
+- [ ] Count occurrences of a substring	
+	- http://rosettacode.org//wiki/Count_occurrences_of_a_substring
+- [ ] Roots of a function		
+	- http://rosettacode.org//wiki/Roots_of_a_function
+- [ ] Swapping Counters		
+	- https://projecteuler.net/problem=321
+- [ ] Parse an IP Address		
+	- http://rosettacode.org//wiki/Parse_an_IP_Address	http://rosettacode.org//wiki/Parse_an_IP_Address
+- [ ] Logical operations		
+	- http://rosettacode.org//wiki/Logical_operations	http://rosettacode.org//wiki/Logical_operations
+- [ ] Most Frequent Word		
+	- http://www.codeabbey.com/index/task_view/most-frequent-word	
+- [ ] Graph Generator			
+	- http://www.codeabbey.com/index/task_view/graph-generator	
+- [ ] Fibonacci Divisibility Advanced			
+	- http://www.codeabbey.com/index/task_view/fibonacci-divisibility-advanced	
+- [ ] Prime connection			
+	- https://projecteuler.net/problem=425	
+- [ ] Video display modes			
+	- http://rosettacode.org//wiki/Video_display_modes http://rosettacode.org//wiki/Video_display_modes
+- [ ] Lucky Tickets			
+	- http://www.codeabbey.com/index/task_view/lucky-tickets	
+- [ ] Linear Combinations of Semiprimes			
+	- https://projecteuler.net/problem=278	
+- [ ] Coin sums			
+	- https://projecteuler.net/problem=31	
+- [ ] Doubly-linked list/Definition			
+	- http://rosettacode.org//wiki/Doubly-linked_list/Definition	http://rosettacode.org//wiki/Doubly-linked_list/Definition
+- [ ] Doubly-linked list/Element definition			
+	- http://rosettacode.org//wiki/Doubly-linked_list/Element_definition	http://rosettacode.org//wiki/Doubly-linked_list/Element_definition
+- [ ] Doubly-linked list/Element insertion			
+	- http://rosettacode.org//wiki/Doubly-linked_list/Element_insertion	http://rosettacode.org//wiki/Doubly-linked_list/Element_insertion
+- [ ] Doubly-linked list/Traversal			
+	- http://rosettacode.org//wiki/Doubly-linked_list/Traversal	http://rosettacode.org//wiki/Doubly-linked_list/Traversal
+- [ ] Remove lines from a file			
+	- http://rosettacode.org//wiki/Remove_lines_from_a_file	http://rosettacode.org//wiki/Remove_lines_from_a_file
+- [ ] Arithmetic evaluation			
+	- http://rosettacode.org//wiki/Arithmetic_evaluation	http://rosettacode.org//wiki/Arithmetic_evaluation
+- [ ] Arithmetic-geometric mean			
+	- http://rosettacode.org//wiki/Arithmetic-geometric_mean	http://rosettacode.org//wiki/Arithmetic-geometric_mean
+- [ ] Arithmetic-geometric mean/Calculate Pi			
+	- http://rosettacode.org//wiki/Arithmetic-geometric_mean/Calculate_Pi	http://rosettacode.org//wiki/Arithmetic-geometric_mean/Calculate_Pi
+- [ ] Arithmetic/Complex			
+	- http://rosettacode.org//wiki/Arithmetic/Complex	http://rosettacode.org//wiki/Arithmetic/Complex
+- [ ] Arithmetic/Integer			
+	- http://rosettacode.org//wiki/Arithmetic/Integer	http://rosettacode.org//wiki/Arithmetic/Integer
+- [ ] Arithmetic/Rational			
+	- http://rosettacode.org//wiki/Arithmetic/Rational	http://rosettacode.org//wiki/Arithmetic/Rational
+- [ ] Jensen's Device			
+	- http://rosettacode.org//wiki/Jensen%27s_Device	http://rosettacode.org//wiki/Jensen%27s_Device
+- [ ] Bouncy numbers			
+	- https://projecteuler.net/problem=112	
+- [ ] Convergents of e			
+	- https://projecteuler.net/problem=65	
+- [ ] Active object			
+	- http://rosettacode.org//wiki/Active_object	http://rosettacode.org//wiki/Active_object
+- [ ] Continued fraction			
+	- http://rosettacode.org//wiki/Continued_fraction	http://rosettacode.org//wiki/Continued_fraction
+- [ ] Continued fraction/Arithmetic/Construct from rational number			
+	- http://rosettacode.org//wiki/Continued_fraction/Arithmetic/Construct_from_rational_number	http://rosettacode.org//wiki/Continued_fraction/Arithmetic/Construct_from_rational_number
+- [ ] MD5			
+	- http://rosettacode.org//wiki/MD5	http://rosettacode.org//wiki/MD5
+- [ ] MD5/Implementation			
+	- http://rosettacode.org//wiki/MD5/Implementation	http://rosettacode.org//wiki/MD5/Implementation
+- [ ] Perfect right-angled triangles			
+	- https://projecteuler.net/problem=218	
+- [ ] Pascal's triangle			
+	- http://rosettacode.org//wiki/Pascal%27s_triangle	http://rosettacode.org//wiki/Pascal%27s_triangle
+- [ ] Pascal's triangle/Puzzle			
+	- http://rosettacode.org//wiki/Pascal%27s_triangle/Puzzle	http://rosettacode.org//wiki/Pascal%27s_triangle/Puzzle
+- [ ] Migrating ants			
+	- https://projecteuler.net/problem=393	
+- [ ] Function composition			
+	- http://rosettacode.org//wiki/Function_composition	http://rosettacode.org//wiki/Function_composition
+- [ ] Function definition			
+	- http://rosettacode.org//wiki/Function_definition	http://rosettacode.org//wiki/Function_definition
+- [ ] Function frequency			
+	- http://rosettacode.org//wiki/Function_frequency	http://rosettacode.org//wiki/Function_frequency
+- [ ] Function prototype			
+	- http://rosettacode.org//wiki/Function_prototype	http://rosettacode.org//wiki/Function_prototype
+- [ ] RSA encryption			
+	- https://projecteuler.net/problem=182	
+- [ ] Sudoku			
+	- http://rosettacode.org//wiki/Sudoku	http://rosettacode.org//wiki/Sudoku
+- [ ] Echo server			
+	- http://rosettacode.org//wiki/Echo_server	http://rosettacode.org//wiki/Echo_server
+- [ ] String length			
+	- http://rosettacode.org//wiki/String_length	http://rosettacode.org//wiki/String_length
+- [ ] Pig the dice game			
+	- http://rosettacode.org//wiki/Pig_the_dice_game	http://rosettacode.org//wiki/Pig_the_dice_game
+- [ ] Pig the dice game/Player	
+	- http://rosettacode.org//wiki/Pig_the_dice_game/Player	http://rosettacode.org//wiki/Pig_the_dice_game/Player
+- [ ] Constrained Sums			
+	- https://projecteuler.net/problem=528	
+- [ ] Repunit nonfactors			
+	- https://projecteuler.net/problem=133	
+- [ ] Median of Three			
+	- http://www.codeabbey.com/index/task_view/median-of-three	
+- [ ] Last Friday of each month			
+	- http://rosettacode.org//wiki/Last_Friday_of_each_month	http://rosettacode.org//wiki/Last_Friday_of_each_month
+- [ ] Cuboid route			
+	- https://projecteuler.net/problem=86	
+- [ ] Harshad Numbers			
+	- https://projecteuler.net/problem=387	
+- [ ] Loops/Break			
+	- http://rosettacode.org//wiki/Loops/Break	http://rosettacode.org//wiki/Loops/Break
+- [ ] Loops/Continue			
+	- http://rosettacode.org//wiki/Loops/Continue	http://rosettacode.org//wiki/Loops/Continue
+- [ ] Loops/Do-while			
+	- http://rosettacode.org//wiki/Loops/Do-while	http://rosettacode.org//wiki/Loops/Do-while
+- [ ] Loops/Downward for			
+	- http://rosettacode.org//wiki/Loops/Downward_for	http://rosettacode.org//wiki/Loops/Downward_for
+- [ ] Loops/For			
+	- http://rosettacode.org//wiki/Loops/For	http://rosettacode.org//wiki/Loops/For
+- [ ] Loops/For with a specified step			
+	- http://rosettacode.org//wiki/Loops/For_with_a_specified_step	http://rosettacode.org//wiki/Loops/For_with_a_specified_step
+- [ ] Loops/Foreach			
+	- http://rosettacode.org//wiki/Loops/Foreach	http://rosettacode.org//wiki/Loops/Foreach
+- [ ] Loops/Infinite			
+	- ttp://rosettacode.org//wiki/Loops/Infinite	http://rosettacode.org//wiki/Loops/Infinite
+- [ ] Loops/N plus one half			
+	- http://rosettacode.org//wiki/Loops/N_plus_one_half	http://rosettacode.org//wiki/Loops/N_plus_one_half
+- [ ] Loops/Nested			
+	- http://rosettacode.org//wiki/Loops/Nested	http://rosettacode.org//wiki/Loops/Nested
+- [ ] Loops/While			
+	- http://rosettacode.org//wiki/Loops/While	http://rosettacode.org//wiki/Loops/While
+- [ ] BCD to Hex			
+	- http://www.codeabbey.com/index/task_view/bcd-to-hex	
+- [ ] Fizz Buzz in Asm			
+	- http://www.codeabbey.com/index/task_view/fizz-buzz-in-asm	
+- [ ] Automated Landing			
+	- http://www.codeabbey.com/index/task_view/automated-landing	
+- [ ] Connect Four			
+	- http://www.codeabbey.com/index/task_view/connect-four	
+- [ ] Clustering the Stars			
+	- http://www.codeabbey.com/index/task_view/clustering-the-stars	
+- [ ] Knight's Tour			
+	- http://www.codeabbey.com/index/task_view/knights-tour	
+- [ ] Maze of the Wumpus			
+	- http://www.codeabbey.com/index/task_view/maze-of-the-wumpus	
+- [ ] Algae Robot			
+	- http://www.codeabbey.com/index/task_view/algae-robot	
+- [ ] Fermat goes hacking RSA			
+	- http://www.codeabbey.com/index/task_view/fermat-goes-hacking-rsa	
+- [ ] Gradient Descent for SLE			
+	- http://www.codeabbey.com/index/task_view/gradient-descent-for-system-of-linear-equations	
+- [ ] LZ77 decompression			
+	- http://www.codeabbey.com/index/task_view/lz77-decompression	
+- [ ] Stream Cipher Breaking			
+	- http://www.codeabbey.com/index/task_view/stream-cipher-breaking	
+- [ ] RSA Cryptography			
+	- http://www.codeabbey.com/index/task_view/rsa-cryptography	
+- [ ] Huffman Coding			
+	- http://www.codeabbey.com/index/task_view/huffman-coding	
+- [ ] Starving Priority Queue			
+	- http://www.codeabbey.com/index/task_view/starving-priority-queue	
+- [ ] Four Pics One Word			
+	- http://www.codeabbey.com/index/task_view/four-pics-one-word	
+- [ ] Sweet Harvest			
+	- http://www.codeabbey.com/index/task_view/sweet-harvest	
+- [ ] Maze Pathfinder			
+	- http://www.codeabbey.com/index/task_view/maze-pathfinder	
+- [ ] Funny Words Generator			
+	- http://www.codeabbey.com/index/task_view/funny-words-generator	
+- [ ] Card Names			
+	- http://www.codeabbey.com/index/task_view/card-names	
+- [ ] Rock Paper Scissors			
+	- http://www.codeabbey.com/index/task_view/rock-paper-scissors	
+- [ ] Suffix Array			
+	- http://www.codeabbey.com/index/task_view/suffix-array	
+- [ ] Transitive Closure on Candy States			
+	- http://www.codeabbey.com/index/task_view/transitive-closure-on-candy-states	
+- [ ] Extended Euclidean Algorithm			
+	- http://www.codeabbey.com/index/task_view/extended-euclidean-algorithm	
+- [ ] Uphill Shooting			
+	- http://www.codeabbey.com/index/task_view/uphill-shooting	
+- [ ] Lucky Tickets Advanced			
+	- http://www.codeabbey.com/index/task_view/lucky-tickets-advanced	
+- [ ] Count and Fix Green Eggs and Ham	
+	- "Some of you may remember the Dr. Sues story ""Green Eggs and Ham"". For those of you that don't remember it or have never heard of it, here is the story. However, there is a problem with the story I gave you - every time the word I is used, it is lowercase. Because of this problem, your job is to do the following... 1.Copy the story I gave you into a regular text file. 2.Create a program that reads through the story and makes the letter i uppercase any time it should be. (Make sure to change it when it's used in sam-I-am's name too.) 3.Have your program make a new file, and have it write out the story correctly. 4.Print out how many errors were corrected."		https://www.reddit.com/r/beginnerprojects/comments/1i6sax/challenge_count_and_fix_green_eggs_and_ham/	http://imgur.com/GRkj3yz
+- [ ] Turn Based Pokemon Style Game	
+	- "Write a simple game that allows the user and the computer to take turns selecting moves to use against each other. Both the computer and the player should start out at the same amount of health (such as 100), and should be able to choose between the three moves: 1) The first move should do moderate damage and has a small range (such as 18-25). 2) The second move should have a large range of damage and can deal high or low damage (such as 10-35). 3) The third move should heal whoever casts it a moderate amount, similar to the first move. After each move, a message should be printed out that tells the user what just happened, and how much health the user and computer have. Once the user or the computer's health reaches 0, the game should end. SUBGOALS 1) When someone is defeated, make sure the game prints out that their health has reached 0, and not a negative number. 2) When the computer's health reaches a set amount (such as 35%), increase it's chance to cast heal. 3) Give each move a name."		https://www.reddit.com/r/beginnerprojects/comments/1aw0iq/project_turn_based_pokemon_style_game/	
+- [ ] Bulk Renamer and Organizer	
+	- This program will take a series of files and renames them with a specific filename filter entered by the user. For instance if the user enters myimage###.jpg it will rename all files with a “minimum” of three numbers like “myimage001.jpg”, “myimage145.jpg” or even “myimage1987.jpg” since 1987 has at least three numbers.	Files	http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/	
+- [ ] Sorting algorithms/Bead sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Bead_sort	http://rosettacode.org//wiki/Sorting_algorithms/Bead_sort
+- [ ] Sorting algorithms/Bogosort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Bogosort	http://rosettacode.org//wiki/Sorting_algorithms/Bogosort
+- [ ] Sorting algorithms/Bubble sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Bubble_sort	http://rosettacode.org//wiki/Sorting_algorithms/Bubble_sort
+- [ ] Sorting algorithms/Cocktail sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Cocktail_sort	http://rosettacode.org//wiki/Sorting_algorithms/Cocktail_sort
+- [ ] Sorting algorithms/Comb sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Comb_sort	http://rosettacode.org//wiki/Sorting_algorithms/Comb_sort
+- [ ] Sorting algorithms/Counting sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Counting_sort	http://rosettacode.org//wiki/Sorting_algorithms/Counting_sort
+- [ ] Sorting algorithms/Gnome sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Gnome_sort	http://rosettacode.org//wiki/Sorting_algorithms/Gnome_sort
+- [ ] Sorting algorithms/Heapsort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Heapsort	http://rosettacode.org//wiki/Sorting_algorithms/Heapsort
+- [ ] Sorting algorithms/Insertion sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Insertion_sort	http://rosettacode.org//wiki/Sorting_algorithms/Insertion_sort
+- [ ] Sorting algorithms/Merge sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Merge_sort	http://rosettacode.org//wiki/Sorting_algorithms/Merge_sort
+- [ ] Sorting algorithms/Pancake sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Pancake_sort	http://rosettacode.org//wiki/Sorting_algorithms/Pancake_sort
+- [ ] Sorting algorithms/Permutation sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Permutation_sort	http://rosettacode.org//wiki/Sorting_algorithms/Permutation_sort
+- [ ] Sorting algorithms/Quicksort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Quicksort	http://rosettacode.org//wiki/Sorting_algorithms/Quicksort
+- [ ] Sorting algorithms/Radix sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Radix_sort	http://rosettacode.org//wiki/Sorting_algorithms/Radix_sort
+- [ ] Sorting algorithms/Selection sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Selection_sort	http://rosettacode.org//wiki/Sorting_algorithms/Selection_sort
+- [ ] Sorting algorithms/Shell sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Shell_sort	http://rosettacode.org//wiki/Sorting_algorithms/Shell_sort
+- [ ] Sorting algorithms/Sleep sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Sleep_sort	http://rosettacode.org//wiki/Sorting_algorithms/Sleep_sort
+- [ ] Sorting algorithms/Stooge sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Stooge_sort	http://rosettacode.org//wiki/Sorting_algorithms/Stooge_sort
+- [ ] Sorting algorithms/Strand sort			
+	- http://rosettacode.org//wiki/Sorting_algorithms/Strand_sort	http://rosettacode.org//wiki/Sorting_algorithms/Strand_sort
+- [ ] The ISAAC Cipher			
+	- http://rosettacode.org//wiki/The_ISAAC_Cipher	http://rosettacode.org//wiki/The_ISAAC_Cipher
+- [ ] Thiele's interpolation formula			
+	- http://rosettacode.org//wiki/Thiele%27s_interpolation_formula	http://rosettacode.org//wiki/Thiele%27s_interpolation_formula
+- [ ] The Twelve Days of Christmas			
+	- http://rosettacode.org//wiki/The_Twelve_Days_of_Christmas	http://rosettacode.org//wiki/The_Twelve_Days_of_Christmas
+- [ ] Tokenize a string			
+	- http://rosettacode.org//wiki/Tokenize_a_string	http://rosettacode.org//wiki/Tokenize_a_string
+- [ ] Towers of Hanoi			
+	- http://rosettacode.org//wiki/Towers_of_Hanoi	http://rosettacode.org//wiki/Towers_of_Hanoi
+- [ ] Ulam spiral (for primes)			
+	- http://rosettacode.org//wiki/Ulam_spiral_(for_primes)	http://rosettacode.org//wiki/Ulam_spiral_(for_primes)
+- [ ] Unbias a random generator			
+	- http://rosettacode.org//wiki/Unbias_a_random_generator	http://rosettacode.org//wiki/Unbias_a_random_generator
+- [ ] URL decoding			
+	- http://rosettacode.org//wiki/URL_decoding	http://rosettacode.org//wiki/URL_decoding
+- [ ] URL encoding			
+	- http://rosettacode.org//wiki/URL_encoding	http://rosettacode.org//wiki/URL_encoding
+- [ ] URL parser			
+	- http://rosettacode.org//wiki/URL_parser	http://rosettacode.org//wiki/URL_parser
+- [ ] Use another language to call a function			
+	- http://rosettacode.org//wiki/Use_another_language_to_call_a_function	http://rosettacode.org//wiki/Use_another_language_to_call_a_function
+- [ ] Vampire number			
+	- http://rosettacode.org//wiki/Vampire_number	http://rosettacode.org//wiki/Vampire_number
+- [ ] Zebra puzzle			
+	- http://rosettacode.org//wiki/Zebra_puzzle	http://rosettacode.org//wiki/Zebra_puzzle
+- [ ] Lexicographic permutations			
+	- https://projecteuler.net/problem=24	
+- [ ] Champernowne's constant			
+	- https://projecteuler.net/problem=40	
+- [ ] Coin partitions			
+	- https://projecteuler.net/problem=78	
+- [ ] Passcode derivation			
+	- https://projecteuler.net/problem=79	
+- [ ] Optimum polynomial			
+	- https://projecteuler.net/problem=101	
+- [ ] Red, green, and blue tiles			
+	- https://projecteuler.net/problem=117	
+- [ ] Disc game prize fund			
+	- https://projecteuler.net/problem=121	
+- [ ] Perfect Square Collection			
+	- https://projecteuler.net/problem=142	
+- [ ] How many reversible numbers are there below one-billion?			
+	- https://projecteuler.net/problem=145	
+- [ ] Integer angled Quadrilaterals			
+	- https://projecteuler.net/problem=177	
+- [ ] Squarefree Numbers			
+	- https://projecteuler.net/problem=193	
+- [ ] Prime triplets			
+	- https://projecteuler.net/problem=196	
+- [ ] Robot Walks			
+	- https://projecteuler.net/problem=208	
+- [ ] Almost right-angled triangles I			
+	- https://projecteuler.net/problem=223	
+- [ ] Almost right-angled triangles II			
+	- https://projecteuler.net/problem=224	
+- [ ] Fibonacci Words			
+	- https://projecteuler.net/problem=230	
+- [ ] Minkowski Sums			
+	- https://projecteuler.net/problem=228	
+- [ ] Stone Game			
+	- https://projecteuler.net/problem=260
+- [ ] Stone Game II			
+	- https://projecteuler.net/problem=325
+- [ ] Stone Game III			
+	- https://projecteuler.net/problem=366	
+- [ ] Modular Cubes, part 1			
+	- https://projecteuler.net/problem=271	
+- [ ] Modular Cubes, part 2			
+	- https://projecteuler.net/problem=272	
+- [ ] The Ackermann function			
+	- https://projecteuler.net/problem=282	
+- [ ] Selective Amnesia			
+	- https://projecteuler.net/problem=298	
+- [ ] Protein folding			
+	- https://projecteuler.net/problem=300	
+- [ ] Cyclic paths on Sierpiński graphs			
+	- https://projecteuler.net/problem=312	
+- [ ] Building a tower			
+	- https://projecteuler.net/problem=324	
+- [ ] Hexagonal orchards			
+	- https://projecteuler.net/problem=351	
+- [ ] Bézier Curves			
+	- https://projecteuler.net/problem=363	
+- [ ] Licence plates			
+	- https://projecteuler.net/problem=371	
+- [ ] Crisscross Ellipses			
+	- https://projecteuler.net/problem=404	
+- [ ] Guessing Game			
+	- https://projecteuler.net/problem=406	
+- [ ] Box-ball system			
+	- https://projecteuler.net/problem=426	
+- [ ] Unfair wager			
+	- https://projecteuler.net/problem=436	
+- [ ] Chocolate covered candy			
+	- https://projecteuler.net/problem=449	
+- [ ] An ant on the move			
+	- https://projecteuler.net/problem=460	
+- [ ] Number Sequence Game			
+	- https://projecteuler.net/problem=477	
+- [ ] St. Petersburg Lottery		
+	- https://projecteuler.net/problem=499	
+- [ ] Problem 500!!!			
+	- https://projecteuler.net/problem=500	
+- [ ] Tricolored Coin Fountains		
+	- https://projecteuler.net/problem=519	
+- [ ] Drunken Tower of Hanoi		
+	- https://projecteuler.net/problem=497	
+- [ ] Hilbert's Blackout			
+	- https://projecteuler.net/problem=522	
+- [ ] Nanobots on Geodesics			
+	- https://projecteuler.net/problem=532	
+- [ ] Neumann's Random Generator			
+	- http://www.codeabbey.com/index/task_view/neumanns-random-generator	
+- [ ] Bicycle Race			
+	- http://www.codeabbey.com/index/task_view/bicycle-race	
+- [ ] Quadratic Equation			
+	- http://www.codeabbey.com/index/task_view/quadratic-equation	
+- [ ] Luhn Algorithm			
+	- ttp://www.codeabbey.com/index/task_view/luhn-algorithm	
+- [ ] Dungeons and Dragons Dice			
+	- http://www.codeabbey.com/index/task_view/dungeons-and-dragons-dice	
+- [ ] Brainfuck Interpreter			
+	- http://www.codeabbey.com/index/task_view/brainfuck-interpreter	
+- [ ] Star Medals			
+	- http://www.codeabbey.com/index/task_view/star-medals	
