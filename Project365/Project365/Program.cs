@@ -31,6 +31,13 @@ namespace Project365
             Program.ProgramStart();
         }
 
+        public static void Restart(int waitTime)
+        {
+            Thread.Sleep(waitTime);
+            Console.Clear();
+            Program.ProgramStart();
+        }
+
         private static string InvokeStringMethod(string typeName, string methodName)
         {
             Type calledType = Type.GetType("Project365." + typeName + "." + methodName);
